@@ -1,0 +1,12 @@
+markdown: redcarpet
+relative_permalinks: false
+
+title: Vintner
+description: Home of Grapevine and Vineyard
+url: https://vintner.haus
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- build
+- vendor
