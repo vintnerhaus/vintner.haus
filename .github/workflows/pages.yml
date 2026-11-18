@@ -16,7 +16,9 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Pinned: ubuntu-latest moved to 26.04, which only publishes the newest
+    # patch in each Ruby series, so the exact 3.4.7 pin below 404s there.
+    runs-on: ubuntu-24.04
     env:
       JEKYLL_ENV: production
     steps:
